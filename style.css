@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+body{
+    
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    padding: 25px 35px;
+    
+    
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(117, 14, 14);
+    -webkit-box-shadow: -1px 6px 39px 37px rgba(0,42,212,1);
+    -moz-box-shadow: -1px 6px 39px 37px rgba(0,42,212,1);
+    box-shadow: -1px 6px 39px 37px rgba(0,42,212,1);
+}
+
+.container p{
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.container input{
+    width: 100%;
+    height: 3em;
+    border: 1px solid #449eea;
+    outline: 0;
+    padding: 1em;
+    pad: 10px 0 20px;
+    border-radius: 0.5em;
+}
+
+.container button{
+    width: 100%;
+    height: 50px;
+    background: rgb(254, 89, 89);
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px red;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#resimbox{
+    margin-left: 25%;
+    display: none;
+    
+}
+#resimbox h3{
+    margin-bottom: 12px;
+    margin-left: 23px;
+    margin-top: 12px;
+    
+}
+
+
+
